@@ -1,0 +1,230 @@
+.user {
+  flex: 4;
+  padding: 20px;
+  padding-top: 110px;
+}
+
+.userTitle {
+  color: var(--black);
+}
+
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 15px -5px var(--black);
+  box-shadow: 1px 1px 4px  var(--black);
+}
+#fotnto{
+  font-size: 150%;
+}
+.userUpdate {
+  flex: 1;
+  padding: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 15px -5px var(--black);
+  box-shadow: 1px 1px 6px    var(--black);
+  margin-left: 20px;
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.userShowUsername {
+  font-weight: 600;
+  color: var(--black);
+}
+
+.userShowUserTitle {
+  font-weight: 300;
+}
+
+.userShowBottom {
+  margin-top: 20px;
+}
+
+.userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: var(--black);
+}
+
+.userShowIcon {
+  font-size: 16px !important;
+}
+
+.userShowInfoTitle {
+  margin-left: 10px;
+}
+
+.userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userUpdateItem {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#zok h3 {
+  color: var(--black);
+}
+
+.userUpdateItem>label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: var(--black);
+}
+
+.userUpdateInput {
+  padding: 5px;
+  border: solid .1px;
+  border-radius: .7rem;
+  width: max-content;
+
+
+
+
+  background-color: var(--white2);
+}
+
+
+
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.userUpdateImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 5px solid var(--col);
+  border-radius: 10rem;
+}
+
+.userUpdateIcon {
+  cursor: pointer;
+}
+
+.userUpdateButton {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  color: var(--white1);
+  font-weight: 600;
+  margin-right: 25px;
+  border-radius: 1rem;
+}
+
+.hna {
+  margin-right: 300px;
+  margin-top: 150px;
+}
+
+#an {
+  border-radius: 1rem;
+}
+
+#now1 {
+  display: none;
+}
+
+/* media queries  */
+
+
+@media (max-width:723px) {
+  .user {
+    flex: 1;
+    padding: 10px;
+    padding-top: 110px;
+  }
+
+  .userContainer {
+    display: block;
+    
+    
+  }
+
+  .userUpdate {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .userUpdateItem {
+    margin-left: 15px;
+  }
+
+  .userUpdateImg {
+    width: 100px;
+    height: 100px;
+
+  }
+
+
+
+}
+
+@media (max-width:560px) {
+#padadingtop{padding-top: 27%;}
+
+  #now2 {
+    display: none;
+  }
+
+  #now1 {
+    display: block;
+  }
+
+  #now1 {
+    margin-left: 10px;
+  }
+
+
+}

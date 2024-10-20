@@ -1,0 +1,9 @@
+.pp {
+    box-shadow: 0 0 5px 0 var(--black);
+    padding: 10px;
+  
+}
+.colm-form .form-container p h2{
+    color: var(--black);
+
+}

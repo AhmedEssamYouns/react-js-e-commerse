@@ -1,0 +1,89 @@
+.Wrapper {
+    Width: 95%;
+    Margin: 0 Auto;
+  }
+  #Search-Container {
+    Margin: 1em 0;
+    display: flex;
+
+  }
+ 
+  
+
+  #Buttonss{color: var(--black);}
+  #Search-Container Input {
+    Background-Color: Transparent;
+    Width: 200px;
+    background-color: var(--white2);
+    border-radius: 3rem;
+    Border-Bottom: 2px Solid var(--black);
+    Padding: 1em 0.3em;
+    color: var(--black);
+  }
+  #Search-Container Input:focus {
+    Border-Bottom-Color: var(--green);
+  }
+  #Search-Container Button {
+    Padding: 1em 2em;
+    Margin-Left: 1em;
+    Background-Color: var(--green);
+    
+    Border-Radius: 5px;
+    Margin-Top: 0.5em;
+    cursor: pointer;
+  }
+  .Button-Value {
+    Border: 2px Solid var(--green);
+    Padding: 1em 2.2em;
+    Border-Radius: 3em;
+    Background-Color: Transparent;
+    Color: var(--green);
+    Cursor: Pointer;
+  }
+  .Active {
+    Background-Color: var(--green);
+    Color: var(--white1);
+  }
+  #Products {
+    Display: Grid;
+    Grid-Template-Columns: Auto Auto Auto;
+    Grid-Column-Gap: 1.5em;
+    Padding: 2em 0;
+  }
+  .Card {
+    Background-Color: var(--white1);
+    Max-Width: 18em;
+    Margin-Top: 1em;
+    Padding: 1em;
+    Border-Radius: 5px;
+    Box-Shadow: 1em 2em 2.5em Rgba(1, 2, 68, 0.08);
+  }
+  .Image-Container {
+    Text-Align: Center;
+  }
+ span p {color: var(--green);}
+  .Container {
+    Padding-Top: 1em;
+    Color: var(--black);
+  }
+  .Container H5 {
+    Font-Weight: 500;
+  }
+  .Hide {
+    Display: None;
+  }
+  @Media Screen And (Max-Width: 720px) {
+    Img {
+      Max-Width: 100%;
+      Object-Fit: Contain;
+      Height: 10em;
+    }
+    .Card {
+      Max-Width: 10em;
+      Margin-Top: 1em;
+    }
+    #Products {
+      Grid-Template-Columns: Auto Auto;
+      Grid-Column-Gap: 1em;
+    }
+  }

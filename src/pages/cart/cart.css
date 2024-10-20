@@ -1,0 +1,201 @@
+@media all and (min-width: 20px) {
+    #AILOGO {
+        margin-top: 24%;
+        border-bottom: 1px solid var(--black);
+
+    }
+
+    .AIcart {
+        color: var(--black);
+    }
+
+    .AIshoes_detail {
+        font-size: 16px;
+    }
+
+    .AIcart_banner {
+        text-align: center;
+        background-color: var(--white);
+    }
+
+   
+
+    #bord {
+        border: 3.4px solid var(--col);
+        border-radius: 19px;
+    }
+
+    .AIcart_main_header {
+        padding: 2.4em;
+        font-size: .8em;
+        font-weight: 600;
+    }
+
+    .AIcart_detail {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .AIcart_item {
+        padding-top: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--black);
+
+    }
+
+    .AIcart_image {
+        margin-top: 12%;
+        width: 83%;
+        height: auto;
+        border-radius: 6px;
+
+
+
+    }
+
+    .AIcart_item_detail {
+        padding-top: 1em;
+    }
+
+    .AIcart_heading {
+        padding-bottom: 1em;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+
+    .AIshoes_detail {
+        padding-top: 1.5em;
+    }
+
+    .AIshoes_sub_head {
+        padding-top: .5em;
+        font-size: .9em;
+    }
+
+    .AIshoes_size_select {
+        padding-top: .5em;
+    }
+
+    .AIselecter {
+        padding: 1em;
+        font-size: .9em;
+    }
+
+    .AIprice {
+        padding-top: 1em;
+    }
+
+    .AIprice_color {
+        color: var(--green);
+    }
+
+    .AIcheckout_section {
+        /* padding-top: .5em; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .AIitem_total {
+        margin-top: 1em;
+        padding-top: 1em;
+        text-align: right;
+        padding-right: 2em;
+        font-size: 1.2em;
+    }
+
+    .AIbtn_checkout {
+        position: sticky;
+        margin-top: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border: solid 1px;
+        background-color: #AE846D;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: .2em;
+    }
+
+    .AIbtn_checkout:hover {
+        background-color: #a38d81;
+    }
+
+    .AIcart_btn {
+        display: flex;
+    }
+
+    .AIbtn_item {
+        margin-top: 1em;
+        text-decoration: none;
+        padding: 1em;
+        margin: 1em;
+        margin-left: 0em;
+        border: 1px solid;
+        color: #000000;
+        border-color: #000000;
+    }
+
+    .AIbtn_item:hover {
+        background-color: var(--black);
+        color: var(--white);
+    }
+
+}
+
+@media all and (min-width: 900px) {
+    .AIcart_detail {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .AIcart_item_detail {
+        text-align: left;
+
+    }
+
+    .AIcart_image {
+        width: 69%;
+        border-radius: 6px;
+
+    }
+
+    #AILOGO {
+        margin-top: 15%;
+        border-bottom: 1px solid var(--black);
+
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    .AIcart_detail {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .AIcart_item_detail {
+        text-align: left;
+
+    }
+
+    .AIcart_image {
+        width: 69%;
+        border-radius: 6px;
+        margin-top: 4.2%;
+
+
+    }
+
+    #AILOGO {
+        margin-top: 13%;
+        border-bottom: 1px solid var(--black);
+    }
+
+}
+
+#treg {
+    display: none;
+}

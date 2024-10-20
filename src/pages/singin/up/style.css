@@ -1,0 +1,154 @@
+#ahaa {
+    margin-top: 120px;
+}
+
+.colm-logo {
+    flex: 0 0 50%;
+    text-align: left;
+}
+
+.colm-form {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    text-align: center;
+
+}
+
+.colm-logo img {
+    max-width: 400px;
+}
+
+.colm-logo h2 {
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+
+.colm-form .form-container {
+    background-color: var(--white1);
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px var(--black), 0 0px 0px var(--black);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+#borderup {
+    border-top: 1px solid grey;
+}
+
+#phha1 {
+    background-color: var(--white2);
+
+}
+
+#phha2 {
+    background-color: var(--white2);
+
+}
+
+.colm-form .form-container input,
+.colm-form .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.colm-form .form-container input {
+    border: 1px solid #dddfe2;
+    background-color: var(--white2);
+
+    color: var(--black);
+    padding: 0 8px;
+    outline: none;
+}
+
+#sec {
+
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--green);
+    color: var(--white1);
+
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.colm-form .form-container input:focus-visible {
+
+    background-color: var(--white2);
+
+
+    box-shadow: 0 0 0 2px var(--white2);
+}
+
+.colm-form .form-container input:focus {
+
+
+    box-shadow: 0 0 0 2px var(--white2);
+}
+
+.colm-form .form-container .btn-login {
+    background-color: var(--green);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.colm-form .form-container a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid var(--white1);
+}
+
+.colm-form .form-container a:hover {
+    text-decoration: underline;
+}
+
+.colm-form .form-container .btn-new {
+    background-color: var(--green);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.colm-form p {
+    font-size: 14px;
+}
+
+.colm-form p a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.colm-form p a:hover {
+    text-decoration: underline;
+}
+
+#a1 {
+    margin-top: 50px;
+}
